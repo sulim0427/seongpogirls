@@ -324,7 +324,7 @@ body{
         width: 90%;
     }
     .banner_text{
-        margin: 15%;
+        margin: 0%;
         width: 50%;
         height: 30%;
     }
@@ -358,7 +358,7 @@ body{
         width: 90%;
     }
     .banner_text{
-        margin: 15%;
+        margin: 10% 6%;
         width: 50%;
         height: 30%;
     }
@@ -591,7 +591,7 @@ body{
     background-color: #271795;
     position: absolute;
     bottom: 230px;
-    left: 60px;
+    left: 20px;
     z-index: 4;
 }
 .products_box1{
@@ -893,9 +893,9 @@ body{
 
     .slick-prev,
     .slick-next {
-        margin-top: 31%;
-        margin-left: -30%;
-        margin-right: 29%;
+        margin-top: 21%;
+        margin-left: -34%;
+        margin-right: 34%;
     }
 
 
@@ -1096,9 +1096,9 @@ body{
     }
     .slick-prev,
     .slick-next {
-        margin-top: 31%;
-        margin-left: -40%;
-        margin-right: 39%;
+        margin-top: 21%;
+        margin-left: -42%;
+        margin-right: 42%;
     }
     .products_more{
         padding: 14px 50px;
@@ -1288,9 +1288,9 @@ body{
     }
     .slick-prev,
     .slick-next {
-        margin-top: 31%;
-        margin-left: -54%;
-        margin-right: 53%;
+        margin-top: 21%;
+        margin-left: -56%;
+        margin-right: 56%;
     }
     .products_more{
         padding: 14px 50px;
@@ -1436,9 +1436,9 @@ body{
     }
     .slick-prev,
     .slick-next {
-        margin-top: 22%;
-        margin-left: -75%;
-        margin-right: 74%;
+        margin-top: 12%;
+        margin-left: -78%;
+        margin-right: 78%;
     }
     .products_more{
         padding: 14px 50px;
@@ -1643,7 +1643,7 @@ body{
       line-height: 0;
   
       position: absolute;
-      top: 48%;
+      top: 500px;
   
       display: block;
   
@@ -1697,7 +1697,7 @@ body{
   }
   
   .slick-prev {
-      left: 940px;
+      left: 980px;
       z-index: 99;
   }
   
@@ -1715,7 +1715,7 @@ body{
   }
   
   .slick-next {
-      right: 15%;
+      right: 130px;
   }
   
   [dir='rtl'] .slick-next {
