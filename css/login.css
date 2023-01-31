@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+/*꼭 넣기*/
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #271795;
+    text-decoration: none;
+}
+
+body {
+    font-family: "GmarketSansMedium";
+    font-size: 12px;
+    line-height: 22px;
+    color: #271795;
+}
+
+/*top*/
+#top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.menu_btn,
+.menu_bg,
+.menu_wrap,
+.close_btn,
+.sidebar_menu {
+    display: none;
+}
+
+.logo {
+    /*왼쪽*/
+    float: left;
+    padding-top: 10px;
+}
+
+.gnb {
+    /*오른쪽*/
+    float: right;
+    padding-top: 45px;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.gnb li a:hover {
+    color: #fec5e5;
+}
+
+/*login*/
+#login_section {
+    width: 1200px;
+    height: 900px;
+    margin: 80px auto;
+}
+
+.login_box_top {
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    background-color: #271795;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_box_top img {
+    margin: 5px;
+}
+
+.login_box_top p {
+    color: #defff8;
+    font-size: 14px;
+    text-align: left;
+    padding: 14px 10px;
+}
+
+.login_box1 {
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    background-color: #fec5e5;
+    background-image: url(../images/spgils_brand_logo.png);
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-size: 30%;
+    position: relative;
+}
+
+form {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 16px;
+}
+
+fieldset {
+    text-align: center;
+    border: none;
+}
+
+fieldset div {
+    display: inline-block;
+    text-align: left;
+}
+
+label b {
+    text-align: left;
+    font-size: 20px;
+}
+
+#Email,
+#password {
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    margin: 6px 0;
+    border: #271795 solid 2px;
+    background-color: #defff8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login_btn {
+    width: 500px;
+    height: 70px;
+    background-color: #fec5e5;
+    border: #271795 solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #271795;
+    font-size: 26px;
+    font-family: 'GmarketSansMedium';
+}
+
+.login_btn:hover,
+.input_btns input:hover {
+    background-color: #271795;
+    color: #fec5e5;
+}
+
+.input_btns input {
+    box-sizing: border-box;
+    color: #271795;
+    width: 130px;
+    height: 40px;
+    background-color: #fec5e5;
+    border: #271795 solid 2px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+/*footer*/
+#footer_wrap {
+    height: 200px;
+    background-color: #271795;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_text_left {
+    margin-left: 20px;
+    padding-top: 90px;
+    color: #fec5e5;
+}
+
+.sns_icon {
+    float: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.sns_icon img {
+    width: 70%;
+}
+
+.sns_icon li {
+    float: left;
+}

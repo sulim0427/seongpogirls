@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/*꼭 넣기*/
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #271795;
+    text-decoration: none;
+}
+
+body {
+    font-family: "GmarketSansMedium";
+    font-size: 12px;
+    line-height: 22px;
+    color: #271795;
+}
+
+/*top*/
+#top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+.logo {
+    /*왼쪽*/
+    float: left;
+    padding-top: 10px;
+}
+
+.gnb {
+    /*오른쪽*/
+    float: right;
+    padding-top: 45px;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.gnb li a:hover {
+    color: #fec5e5;
+}
+.on a{
+    color: #fec5e5;
+}
+/*banner*/
+#banner_wrap{
+    height: 300px;
+    background: url(../images/character/character_banner_1.png)
+    no-repeat center;
+    background-size: cover;
+    /*나중에 디자인 바꾸기;*/
+    margin-bottom: 40px;
+}
+.banner{
+    width: 1200px;
+    margin: 0px auto;
+
+}
+/*section*/
+#section{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1300px;
+    text-align: center;
+}
+.title{
+    display: -webkit-inline-box;
+    font-size: 30px;
+    background-color: #fec5e5;
+    padding: 30px 100px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.title:hover{
+    background-color: #271795;
+    color: #fec5e5;
+}
+.character_window{
+    width: 1000px;
+    height: 1100px;
+    background-color: #fec5e5;
+    margin: auto;
+    border: 1px #271795 solid;
+}
+.character_window_top{
+    width: 1000px;
+    height: 50px;
+    background-color: #271795;
+    box-sizing: content-box;
+}
+.character_window_top p{
+    color: #defff8;
+    font-size: 14px;
+    text-align: left;
+    padding: 14px 10px;
+}
+.character_box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.character_img_box{
+    width: 300px;
+    height: 850px;
+    background-color: #defff8;
+    background: url(../images/character/spgirls_minji.png)
+    -90px 0px;
+    background-size: cover;
+    margin-top: 50px;
+}
+.character_explain{
+    width: 600px;
+    height: 850px;
+    background-color: #defff8;
+    border: #271795 3px solid;
+}
+.explain_text{
+    width: 600px;
+    height: 850px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.explain_text h1{
+    font-size: 80px;
+    padding-top: 20px;
+}
+.explain_text h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.explain_text p{
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: -0.8px;
+    line-height: 26px;
+    text-align:start;
+}
+.explain_data{
+    text-align: start;
+    font-size: 24px;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+.explain_data li{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.explain_data li span{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    padding: 16px;
+    text-align: center;
+    background-color: #271795;
+    color: #fec5e5;
+    border-radius: 100px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.character_icon_wrap{
+    position: relative;
+}
+.character_icon{
+    position: absolute;
+    top: -30px;
+    left: 600px;
+}
+.character_icon li{
+    float: left;
+    display: contents;
+}
+
+.character_icon li:nth-child(2) img{
+    margin: 0 14px;
+}
+.character_icon img{
+    display:inline-block;
+    width: 22%;
+    border: 3px solid #271795;
+    border-radius: 100%;
+}
+/*footer*/
+#footer_wrap {
+    height: 200px;
+    background-color: #271795;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_text_left {
+    float: left;
+    margin-left: 20px;
+    padding-top: 90px;
+    color: #fec5e5;
+}
+
+.sns_icon {
+    float: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.sns_icon img {
+    width: 70%;
+}
+
+.sns_icon li {
+    float: left;
+}

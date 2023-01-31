@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*꼭 넣기*/
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #271795;
+    text-decoration: none;
+}
+
+body {
+    font-family: "GmarketSansMedium";
+    font-size: 12px;
+    line-height: 22px;
+    color: #271795;
+}
+
+/*top*/
+#top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+
+.logo {
+    /*왼쪽*/
+    float: left;
+    padding-top: 10px;
+}
+
+.gnb {
+    /*오른쪽*/
+    float: right;
+    padding-top: 45px;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.gnb li a:hover {
+    color: #fec5e5;
+}
+.on a{
+    color: #fec5e5;
+}
+/*banner*/
+#banner_wrap{
+    width: 1200px;
+    margin: 0px auto;
+    height: 350px;
+}
+#banner{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#banner_img{
+    position: absolute;
+}
+/*section*/
+#section{
+    width: 1000px;
+    height: 940px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.title{
+    display: -webkit-inline-box;
+    font-size: 30px;
+    background-color: #fec5e5;
+    padding: 30px 100px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.title:hover{
+    background-color: #271795;
+    color: #fec5e5;
+}
+#section ul{
+    overflow: hidden; /*높이용도도 되지만, 박스에서 벗어난 내용을 안보이게!!!*/
+    /*float때문에 줌*/
+    padding-top: 20px;
+}
+#section ul li{
+    float: left;
+    width: 300px;
+    height: 200px;
+    position: relative; /*기준*/
+    overflow: hidden; /*scale로 커진부분 내용 안보이게*/
+}
+#section ul li:nth-child(2){
+    margin: 0 50px;
+}
+#section ul li a img{
+    transition: all 2s;
+}
+#section ul li a img:hover{
+    transform: scale(1.5);
+}
+#section li img{
+    width: 100%;
+}
+.products_text{
+    display: block;
+    height: 60px;
+}
+/*page*/
+.paginate{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.paginate a:nth-child(1){
+    color: #fec5e5;
+}
+.paginate a{
+    margin: 0 10px;
+}
+.paginate a:hover{
+    color: #fec5e5;
+}
+/*footer*/
+#footer_wrap {
+    height: 200px;
+    background-color: #271795;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_text_left {
+    float: left;
+    margin-left: 20px;
+    padding-top: 90px;
+    color: #fec5e5;
+}
+
+.sns_icon {
+    float: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.sns_icon img {
+    width: 70%;
+}
+
+.sns_icon li {
+    float: left;
+}
