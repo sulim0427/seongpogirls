@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성포걸즈 : Products</title>
+    <link rel="icon" type="images" sizes="32x32" href="images/favicon.png">
+    <!--js-->
+
+    <!--css-->
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/products_swiper-bundle.min.css">
+</head>
+
+<body>
+    <div id="top"><!--top_S-->
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+        <ul class="gnb">
+            <li><a href="character.html">Character</a></li>
+            <li class="on"><a href="products.html">Products</a></li>
+            <li><a href="artwork.html">Artwork</a></li>
+            <li><a href="notice.html">Notice</a></li>
+            <li><a href="brand.html">Brand</a></li>
+        </ul>
+    </div><!--top_E-->
+    <div id="banner_wrap">
+        <div id="banner">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="images/products/products_banner4.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="images/products/products_banner2.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="images/products/products_banner3.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="images/products/products_banner1.png" />
+                        </div>
+                    </div>                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!--banner_E-->
+        
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                zoom: true,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+              });
+            </script>
+        </div>
+    </div>
+
+    <div id="section"><!--section_S-->
+        <a href="#">
+            <h2 class="title">Products</h2>
+        </a>
+
+        <ul>
+            <li><a href="#"><img src="images/products/echo_bag.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/masking_tape.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/postage_stamp.png" alt=""></a></li>
+        </ul>
+        <ul class="products_text">
+            <li>
+                <h3>RUN ON THE SEONG-PO 에코백</h3>
+                <p>10,000원</p>
+            </li>
+            <li>
+                <h3>마스킹 테이프 #01 우주</h3>
+                <p>4,500원</p>
+            </li>
+            <li>
+                <h3>달토끼 우표 스티커</h3>
+                <p>3,000원</p>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#"><img src="images/products/postcard.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/sticker.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/artbook.png" alt=""></a></li>
+        </ul>
+        <ul class="products_text">
+            <li>
+                <h3>성포걸즈 엽서 「마음을 담아!」</h3>
+                <p>2,000원</p>
+            </li>
+            <li>
+                <h3>우주토끼 원형 스티커</h3>
+                <p>2,500원</p>
+            </li>
+            <li>
+                <h3>THE ART OF SEONG-PO GIRLS
+                    <br>성포걸즈 아트북 vol.1
+                </h3>
+                <p>28,000원</p>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#"><img src="images/products/mugcup.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/umbrella.png" alt=""></a></li>
+            <li><a href="#"><img src="images/products/mini_note.png" alt=""></a></li>
+        </ul>
+        <ul class="products_text">
+            <li>
+                <h3>OTAKU GIRL 머그컵</h3>
+                <p>8,000원</p>
+            </li>
+            <li>
+                <h3>Frog wait 우산</h3>
+                <p>22,000원</p>
+            </li>
+            <li>
+                <h3>HAPPY/LOVE 미니노트 (유선)</h3>
+                <p>5,800원</p>
+            </li>
+        </ul>
+        <div class="paginate">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+    </div><!--section_E-->
+    <div id="footer_wrap"><!--footer_wrap_S-->
+        <div class="footer"><!--footer_S-->
+            <ul class="sns_icon">
+                <li><a href="#"><img src="images/sns_icon_insta_.png" alt="sns_icon"></a></li>
+                <li><a href="#"><img src="images/sns_icon_twitter.png" alt="sns_icon"></a></li>
+                <li><a href="#"><img src="images/sns_icon_youtube.png" alt="sns_icon"></a></li>
+            </ul>
+            <div class="footer_text_left">
+                <p>㈜성포걸즈 대표 : 조수림 . 사업자등록번호 : 123-45-67890 . Tel : 02-123-4567
+                    <br> ADD : 서울시 강남구 테헤란로 509, 4층 (삼성동, 엔씨타워1) . E-MAIL : seongpogirls99@gamil.com
+                </p>
+                <br>
+                <p>COPYRIGHT ⓒ 2022 SeongpoGirls All Rights Reserved.</p>
+            </div>
+        </div><!--footer_E-->
+    </div><!--footer_wrap_E-->
+</body>
+
+</html>
