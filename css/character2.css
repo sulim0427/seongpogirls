@@ -28,6 +28,7 @@ body {
     font-size: 12px;
     line-height: 22px;
     color: #271795;
+    min-width: 1200px;
 }
 
 /*top*/
